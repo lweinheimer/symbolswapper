@@ -1,0 +1,52 @@
+{
+  "summary": "Symbol Swapper - Find/Replace Symbols",
+  "website": "https://github.com/aKnownGlitch/symbolswapper",
+  "keywords": ["symbol", "swap", "swapper", "find", "replace"],
+  "languages": ["en", "de", "fr", "ja", "ko", "zh", "es", "pt"],
+  "author": "Larry Weinheimer",
+  "description": "An extension for finding and replacing symbols.",
+  "helpUrl": "https://github.com/aKnownGlitch/symbolswapper",
+  "main": "main.js",
+  "icons": [
+    {
+      "path": "images/SymbolSwapperIcon1.png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "images/SymbolSwapperIcon2.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "path": "images/SymbolSwapperIcon3.png",
+      "width": 144,
+      "height": 144
+    },
+    {
+      "path": "images/SymbolSwapperIcon4.png",
+      "width": 192,
+      "height": 192
+    }
+  ],
+  "version": "0.2.0",
+  "releaseNotes": "In progress - not for public consumption",
+  "name": "SymbolSwapper",
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0"
+  },
+  "id": "23236650",
+  "uiEntryPoints": [
+    {
+      "label": "Symbol Swapper",
+      "type": "menu",
+      "commandId": "swapperCommand"
+    },
+    {
+      "label": "Symbol Replacer",
+      "type": "menu",
+      "commandId": "replacerCommand"
+    }
+  ]
+}
